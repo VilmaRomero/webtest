@@ -26,6 +26,14 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
